@@ -42,7 +42,7 @@ public class CustomerController {
 		
 		System.out.println("Binding result: " + theBindingResult);
 		
-		System.out.println("\n\n\n\n\n");
+		System.out.println("\n\n");
 		
 		if (theBindingResult.hasErrors()) {
 			return "customer-form";
